@@ -6,7 +6,7 @@ import SkillsSection from './components/SkillsSection.tsx';
 import ProjectsSection from './components/ProjectsSection.tsx';
 import ContactSection from './components/ContactSection.tsx';
 import Footer from './components/Footer.tsx';
-import { Terminal, Sparkles, ExternalLink } from 'lucide-react';
+import { Terminal, Sparkles } from 'lucide-react';
 
 export default function App() {
   const promptRef = useRef<HTMLDivElement>(null);
